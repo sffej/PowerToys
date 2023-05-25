@@ -1810,6 +1810,7 @@ rundll
 rungameid
 RUNLEVEL
 runsettings
+runspace
 runtimeclass
 runtimeconfig
 runtimedepsjsonpath
@@ -2330,6 +2331,7 @@ winexe
 winforms
 winfx
 winget
+wingetprovider
 wingetcreate
 Winhook
 winkey
@@ -2340,6 +2342,7 @@ winmm
 WINNT
 winres
 winrt
+winrtact
 winsdk
 winsdkver
 Winsock

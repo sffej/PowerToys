@@ -170,6 +170,7 @@ int runner(bool isProcessElevated, bool openSettings, std::string settingsWindow
             L"modules/Hosts/PowerToys.HostsModuleInterface.dll",
             L"modules/Peek/PowerToys.Peek.dll",
             L"modules/MouseWithoutBorders/PowerToys.MouseWithoutBordersModuleInterface.dll",
+            L"modules/CmdNotFound/PowerToys.CmdNotFoundModuleInterface.dll",
         };
         const auto VCM_PATH = L"modules/VideoConference/PowerToys.VideoConferenceModule.dll";
         if (const auto mf = LoadLibraryA("mf.dll"))
