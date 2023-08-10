@@ -685,6 +685,8 @@ std::string ESettingsWindowNames_to_string(ESettingsWindowNames value)
         return "PowerOCR";
     case ESettingsWindowNames::RegistryPreview:
         return "RegistryPreview";
+    case ESettingsWindowNames::CropAndLock:
+        return "CropAndLock";
     default:
     {
         Logger::error(L"Can't convert ESettingsWindowNames value={} to string", static_cast<int>(value));
@@ -760,6 +762,10 @@ ESettingsWindowNames ESettingsWindowNames_from_string(std::string value)
     {
         return ESettingsWindowNames::RegistryPreview;
     }
+    else if (value == "CropAndLock")
+    {
+		return ESettingsWindowNames::CropAndLock;
+	}
     else
     {
         Logger::error(L"Can't convert string value={} to ESettingsWindowNames", winrt::to_hstring(value));
