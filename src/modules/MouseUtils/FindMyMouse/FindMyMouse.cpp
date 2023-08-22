@@ -1,4 +1,4 @@
-﻿// FindMyMouse.cpp : Based on Raymond Chen's SuperSonar.cpp
+// FindMyMouse.cpp : Based on Raymond Chen's SuperSonar.cpp
 //
 #include "pch.h"
 #include "FindMyMouse.h"
@@ -660,8 +660,8 @@ struct CompositionSpotlight : SuperSonar<CompositionSpotlight>
 
     HWND GetHwnd() noexcept
     {
-		return m_hwnd;
-	}
+        return m_hwnd;
+    }
 
 private:
     bool OnCompositionCreate()
@@ -1098,9 +1098,9 @@ HWND GetSonarHwnd() noexcept
     if (m_sonar != nullptr)
     {
         return m_sonar->GetHwnd();
-	}
+    }
 
-	return nullptr;
+    return nullptr;
 }
 
 #pragma endregion Super_Sonar_API
