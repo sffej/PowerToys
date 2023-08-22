@@ -44,7 +44,7 @@
                             <ComboBoxItem x:Uid="MouseUtils_FindMyMouse_ActivationDoubleControlPress" />
                             <ComboBoxItem x:Uid="MouseUtils_FindMyMouse_ActivationDoubleRightControlPress" />
                             <ComboBoxItem x:Uid="MouseUtils_FindMyMouse_ActivationShakeMouse" />
-                            <ComboBoxItem x:Uid="MouseUtils_FindMyMouse_ActionavtionCustomizedShortcut" />
+                            <ComboBoxItem x:Uid="MouseUtils_FindMyMouse_ActivationCustomizedShortcut" />
                         </ComboBox>
                         <labs:SettingsExpander.Items>
                             <labs:SettingsCard

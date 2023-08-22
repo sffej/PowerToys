@@ -3655,7 +3655,7 @@ Activate by holding the key for the character you want to add an accent to, then
   <data name="Run_PluginUseFindMorePlugins.Content" xml:space="preserve">
     <value>Find more plugins</value>
   </data>
-  <data name="MouseUtils_FindMyMouse_ActionavtionCustomizedShortcut.Content" xml:space="preserve">
+  <data name="MouseUtils_FindMyMouse_ActivationCustomizedShortcut.Content" xml:space="preserve">
     <value>Customized shortcut</value>
   </data>
   <data name="MouseUtils_FindMyMouse_ActivationDoubleRightControlPress.Content" xml:space="preserve">
